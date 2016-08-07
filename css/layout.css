@@ -325,85 +325,233 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
+.python {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+.sql {
+    width: 75%;
+    -moz-animation: sql 2s ease;
+    -webkit-animation: sql 2s ease;
 }
 
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+.elasticsearch {
+    width: 60%;
+    -moz-animation: elasticsearch 2s ease;
+    -webkit-animation: elasticsearch 2s ease;
 }
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
+
+.git {
+    width: 80%;
+    -moz-animation: git 2s ease;
+    -webkit-animation: git 2s ease;
 }
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+
+.spark {
+    width: 20%;
+    -moz-animation: spark 2s ease;
+    -webkit-animation: spark 2s ease;
 }
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
+
+.oracle {
+    width: 60%;
+    -moz-animation: oracle 2s ease;
+    -webkit-animation: oracle 2s ease;
 }
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+
+.mysql {
+    width: 40%;
+    -moz-animation: mysql 2s ease;
+    -webkit-animation: mysql 2s ease;
 }
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+
+.javascript {
+    width: 20%;
+    -moz-animation: javascript 2s ease;
+    -webkit-animation: javascript 2s ease;
+}
+
+.java {
+    width: 10%;
+    -moz-animation: java 2s ease;
+    -webkit-animation: java 2s ease;
+}
+
+.neo4j {
+    width: 10%;
+    -moz-animation: neo4j 2s ease;
+    -webkit-animation: neo4j 2s ease;
+}
+
+.bash {
+    width: 40%;
+    -moz-animation: bash 2s ease;
+    -webkit-animation: bash 2s ease;
+}
+
+.aws {
+    width: 80%;
+    -moz-animation: aws 2s ease;
+    -webkit-animation: aws 2s ease;
+}
+
+.nginx {
+    width: 10%;
+    -moz-animation: nginx 2s ease;
+    -webkit-animation: nginx 2s ease;
+}
+
+.docker {
+    width: 25%;
+    -moz-animation: docker 2s ease;
+    -webkit-animation: docker 2s ease;
+}
+
+@-moz-keyframes python {
+  0%   { width: 0px; }
+  100% { width: 100%; }
+}
+
+@-moz-keyframes elasticsearch {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-moz-keyframes git {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-moz-keyframes sql {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-moz-keyframes spark {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-moz-keyframes java {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-moz-keyframes javascript {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-moz-keyframes neo4j {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-moz-keyframes aws {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-moz-keyframes docker {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-moz-keyframes bash {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-moz-keyframes nginx {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-moz-keyframes javascript {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-moz-keyframes oracle {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-moz-keyframes mysql {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-webkit-keyframes python {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-webkit-keyframes elasticsearch {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-webkit-keyframes sql {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-webkit-keyframes mysql {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-webkit-keyframes git {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-webkit-keyframes spark {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-webkit-keyframes oracle {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-webkit-keyframes java {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-webkit-keyframes javascript {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-webkit-keyframes aws {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-webkit-keyframes docker {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-webkit-keyframes bash {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-webkit-keyframes nginx {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
+}
+
+@-webkit-keyframes neo4j {
+  0%    { width: 0px; }
+  100%  { width: 100%; }
 }
 
 /* ------------------------------------------------------------------ */
