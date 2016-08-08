@@ -171,11 +171,11 @@ ul#nav li a {
    text-align: left;
    color: #fff;
 
-	-webkit-transition: color .2s ease-in-out;
-	-moz-transition: color .2s ease-in-out;
-	-o-transition: color .2s ease-in-out;
-	-ms-transition: color .2s ease-in-out;
-	transition: color .2s ease-in-out;
+	-webkit-transition: color .5s ease-in-out;
+	-moz-transition: color .5s ease-in-out;
+	-o-transition: color .5s ease-in-out;
+	-ms-transition: color .5s ease-in-out;
+	transition: color .5s ease-in-out;
 }
 
 ul#nav li a:active { background-color: transparent !important; }
@@ -281,6 +281,36 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+/* ------------------------------------------------------------------ */
+/* e. Skills Section
+/* ------------------------------------------------------------------ */
+
+#skills {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#skills a, #skills a:visited  { color: #11ABB0; }
+#skills a:hover, #skills a:focus { color: #313131; }
+
+#skills h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#skills h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#skills h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#skills .header-col { padding-top: 9px; }
+#skills .main-col { padding-right: 10%; }
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -325,233 +355,256 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
+/*--------------------- python ---------------------*/
+
 .python {
   	width: 80%;
-  	-moz-animation: python 2s ease;
-  	-webkit-animation: python 2s ease;
-}
-
-.sql {
-    width: 75%;
-    -moz-animation: sql 2s ease;
-    -webkit-animation: sql 2s ease;
-}
-
-.elasticsearch {
-    width: 60%;
-    -moz-animation: elasticsearch 2s ease;
-    -webkit-animation: elasticsearch 2s ease;
-}
-
-.git {
-    width: 80%;
-    -moz-animation: git 2s ease;
-    -webkit-animation: git 2s ease;
-}
-
-.spark {
-    width: 20%;
-    -moz-animation: spark 2s ease;
-    -webkit-animation: spark 2s ease;
-}
-
-.oracle {
-    width: 60%;
-    -moz-animation: oracle 2s ease;
-    -webkit-animation: oracle 2s ease;
-}
-
-.mysql {
-    width: 40%;
-    -moz-animation: mysql 2s ease;
-    -webkit-animation: mysql 2s ease;
-}
-
-.javascript {
-    width: 20%;
-    -moz-animation: javascript 2s ease;
-    -webkit-animation: javascript 2s ease;
-}
-
-.java {
-    width: 10%;
-    -moz-animation: java 2s ease;
-    -webkit-animation: java 2s ease;
-}
-
-.neo4j {
-    width: 10%;
-    -moz-animation: neo4j 2s ease;
-    -webkit-animation: neo4j 2s ease;
-}
-
-.bash {
-    width: 40%;
-    -moz-animation: bash 2s ease;
-    -webkit-animation: bash 2s ease;
-}
-
-.aws {
-    width: 80%;
-    -moz-animation: aws 2s ease;
-    -webkit-animation: aws 2s ease;
-}
-
-.nginx {
-    width: 10%;
-    -moz-animation: nginx 2s ease;
-    -webkit-animation: nginx 2s ease;
-}
-
-.docker {
-    width: 25%;
-    -moz-animation: docker 2s ease;
-    -webkit-animation: docker 2s ease;
+  	-moz-animation: python 5s ease;
+  	-webkit-animation: python 5s ease;
 }
 
 @-moz-keyframes python {
   0%   { width: 0px; }
-  100% { width: 100%; }
-}
-
-@-moz-keyframes elasticsearch {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
-}
-
-@-moz-keyframes git {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
-}
-
-@-moz-keyframes sql {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
-}
-
-@-moz-keyframes spark {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
-}
-
-@-moz-keyframes java {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
-}
-
-@-moz-keyframes javascript {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
-}
-
-@-moz-keyframes neo4j {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
-}
-
-@-moz-keyframes aws {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
-}
-
-@-moz-keyframes docker {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
-}
-
-@-moz-keyframes bash {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
-}
-
-@-moz-keyframes nginx {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
-}
-
-@-moz-keyframes javascript {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
-}
-
-@-moz-keyframes oracle {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
-}
-
-@-moz-keyframes mysql {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
+  80% { width: 80%; }
 }
 
 @-webkit-keyframes python {
   0%    { width: 0px; }
-  100%  { width: 100%; }
+  80%  { width: 80%; }
 }
 
-@-webkit-keyframes elasticsearch {
+/*--------------------- sql ---------------------*/
+
+.sql {
+    width: 75%;
+    -moz-animation: sql 5s ease;
+    -webkit-animation: sql 5s ease;
+}
+
+@-moz-keyframes sql {
   0%    { width: 0px; }
-  100%  { width: 100%; }
+  75%  { width: 75%; }
 }
 
 @-webkit-keyframes sql {
   0%    { width: 0px; }
-  100%  { width: 100%; }
+  75%  { width: 75%; }
 }
 
-@-webkit-keyframes mysql {
+/*--------------------- elastic ---------------------*/
+
+.elasticsearch {
+    width: 60%;
+    -moz-animation: elasticsearch 5s ease;
+    -webkit-animation: elasticsearch 5s ease;
+}
+
+@-moz-keyframes elasticsearch {
   0%    { width: 0px; }
-  100%  { width: 100%; }
+  60%  { width: 60%; }
+}
+
+@-webkit-keyframes elasticsearch {
+  0%    { width: 0px; }
+  60%  { width: 60%; }
+}
+
+/*--------------------- git ---------------------*/
+
+.git {
+    width: 80%;
+    -moz-animation: git 5s ease;
+    -webkit-animation: git 5s ease;
+}
+
+@-moz-keyframes git {
+  0%    { width: 0px; }
+  80%  { width: 80%; }
 }
 
 @-webkit-keyframes git {
   0%    { width: 0px; }
-  100%  { width: 100%; }
+  80%  { width: 80%; }
+}
+
+/*--------------------- spark ---------------------*/
+
+.spark {
+    width: 20%;
+    -moz-animation: spark 5s ease;
+    -webkit-animation: spark 5s ease;
+}
+
+@-moz-keyframes spark {
+  0%    { width: 0px; }
+  20%  { width: 20%; }
 }
 
 @-webkit-keyframes spark {
   0%    { width: 0px; }
-  100%  { width: 100%; }
+  20%  { width: 20%; }
+}
+
+/*--------------------- oracle ---------------------*/
+
+.oracle {
+    width: 60%;
+    -moz-animation: oracle 5s ease;
+    -webkit-animation: oracle 5s ease;
+}
+
+@-moz-keyframes oracle {
+  0%    { width: 0px; }
+  60%  { width: 60%; }
 }
 
 @-webkit-keyframes oracle {
   0%    { width: 0px; }
-  100%  { width: 100%; }
+  60%  { width: 60%; }
 }
 
-@-webkit-keyframes java {
+/*--------------------- mysql ---------------------*/
+
+.mysql {
+    width: 40%;
+    -moz-animation: mysql 5s ease;
+    -webkit-animation: mysql 5s ease;
+}
+
+@-moz-keyframes mysql {
   0%    { width: 0px; }
-  100%  { width: 100%; }
+  40%  { width: 40%; }
+}
+
+@-webkit-keyframes mysql {
+  0%    { width: 0px; }
+  40%  { width: 40%; }
+}
+
+/*--------------------- javascript ---------------------*/
+
+.javascript {
+    width: 20%;
+    -moz-animation: javascript 5s ease;
+    -webkit-animation: javascript 5s ease;
+}
+
+@-moz-keyframes javascript {
+  0%    { width: 0px; }
+  20%  { width: 20%; }
 }
 
 @-webkit-keyframes javascript {
   0%    { width: 0px; }
-  100%  { width: 100%; }
+  20%  { width: 20%; }
 }
 
-@-webkit-keyframes aws {
-  0%    { width: 0px; }
-  100%  { width: 100%; }
+/*--------------------- java ---------------------*/
+
+.java {
+    width: 10%;
+    -moz-animation: java 5s ease;
+    -webkit-animation: java 5s ease;
 }
 
-@-webkit-keyframes docker {
+@-moz-keyframes java {
   0%    { width: 0px; }
-  100%  { width: 100%; }
+  10%  { width: 10%; }
 }
 
-@-webkit-keyframes bash {
+@-webkit-keyframes java {
   0%    { width: 0px; }
-  100%  { width: 100%; }
+  10%  { width: 10%; }
 }
 
-@-webkit-keyframes nginx {
+/*--------------------- neo4j ---------------------*/
+
+.neo4j {
+    width: 10%;
+    -moz-animation: neo4j 5s ease;
+    -webkit-animation: neo4j 5s ease;
+}
+
+@-moz-keyframes neo4j {
   0%    { width: 0px; }
-  100%  { width: 100%; }
+  10%  { width: 10%; }
 }
 
 @-webkit-keyframes neo4j {
   0%    { width: 0px; }
-  100%  { width: 100%; }
+  10%  { width: 10%; }
+}
+
+/*--------------------- bash ---------------------*/
+
+.bash {
+    width: 40%;
+    -moz-animation: bash 5s ease;
+    -webkit-animation: bash 5s ease;
+}
+
+@-moz-keyframes bash {
+  0%    { width: 0px; }
+  40%  { width: 40%; }
+}
+
+@-webkit-keyframes bash {
+  0%    { width: 0px; }
+  40%  { width: 40%; }
+}
+
+/*--------------------- aws ---------------------*/
+
+.aws {
+    width: 80%;
+    -moz-animation: aws 5s ease;
+    -webkit-animation: aws 5s ease;
+}
+
+@-moz-keyframes aws {
+  0%    { width: 0px; }
+  80%  { width: 80%; }
+}
+
+@-webkit-keyframes aws {
+  0%    { width: 0px; }
+  80%  { width: 80%; }
+}
+
+/*--------------------- nginx ---------------------*/
+
+.nginx {
+    width: 10%;
+    -moz-animation: nginx 5s ease;
+    -webkit-animation: nginx 5s ease;
+}
+
+@-moz-keyframes nginx {
+  0%    { width: 0px; }
+  10%  { width: 10%; }
+}
+
+@-webkit-keyframes nginx {
+  0%    { width: 0px; }
+  10%  { width: 10%; }
+}
+
+/*--------------------- docker ---------------------*/
+
+.docker {
+    width: 25%;
+    -moz-animation: docker 5s ease;
+    -webkit-animation: docker 5s ease;
+}
+
+@-moz-keyframes docker {
+  0%    { width: 0px; }
+  25%  { width: 25%; }
+}
+
+@-webkit-keyframes docker {
+  0%    { width: 0px; }
+  25%  { width: 25%; }
 }
 
 /* ------------------------------------------------------------------ */
@@ -1139,11 +1192,11 @@ footer .social-links li:first-child { margin-left: 0; }
 	height: 60px;
 	background-color: #525252;
 
-	-webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
 
    color: #fff;
    font-size: 21px;
