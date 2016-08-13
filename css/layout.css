@@ -187,10 +187,10 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #2B2B2B url(../images/profile.jpg) no-repeat top left;
+   	-webkit-background-size: contain;
    padding-top: 96px;
    padding-bottom: 66px;
-   overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -207,8 +207,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 180px;
+   height: 100%;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -238,7 +238,7 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 0px;
    overflow: hidden;
 }
 
@@ -286,9 +286,9 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #skills {
-   background: #fff;
-   padding-top: 90px;
-   padding-bottom: 72px;
+   background: #ebeeee;
+   padding-top: 0px;
+   padding-bottom: 66px;
    overflow: hidden;
 }
 
@@ -308,7 +308,7 @@ ul#nav li.current a { color: #F06000; }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#skills .header-col { padding-top: 9px; }
+#skills .header-col { padding-top: 60px; }
 #skills .main-col { padding-right: 10%; }
 
 /*----------------------------------------------*/
@@ -322,7 +322,7 @@ ul#nav li.current a { color: #F06000; }
 	text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
+  	margin-top: 54px;
    list-style: none;
 }
 .bars li {
@@ -612,7 +612,15 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-attachment: fixed;
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
    padding-top: 90px;
    padding-bottom: 60px;
 }
